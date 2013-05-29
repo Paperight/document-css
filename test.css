@@ -1,0 +1,16 @@
+@font-face {
+  font-family: LinuxLibertine;
+	font-style: normal;
+	font-weight: normal;
+	src:url(http://media.paperight.com/fonts/linux-libertine/LinLibertine_Re-4.1.8.ttf);
+}
+
+p { font-family: LinuxLibertine;}
+
+pre {
+ white-space: pre-wrap;       /* css-3 */
+ white-space: -moz-pre-wrap;  /* Mozilla, since 1999 */
+ white-space: -pre-wrap;      /* Opera 4-6 */
+ white-space: -o-pre-wrap;    /* Opera 7 */
+ word-wrap: break-word;       /* Internet Explorer 5.5+ */
+}
