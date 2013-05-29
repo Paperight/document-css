@@ -1,0 +1,97 @@
+@charset "utf-8";
+/* Paperight typography for Project Gutenberg HTML books
+ * Author: Arthur Attwell arthur@paperight.com
+ * */
+
+@font-face {
+  font-family: LinuxLibertine;
+	font-style: normal;
+	font-weight: normal;
+	src:url(http://media.paperight.com/fonts/linux-libertine/LinLibertine_Re-4.1.8.ttf);
+}
+
+@font-face {
+	font-family: LinuxLibertine;
+	font-style: italic;
+	font-weight: normal;
+	src:url(http://media.paperight.com/fonts/linux-libertine/LinLibertine_It-4.0.3.ttf);
+}
+
+@font-face {
+	font-family: LinuxLibertine;
+	font-style: normal;
+	font-weight: bold;
+	src:url(http://media.paperight.com/fonts/linux-libertine/LinLibertine_Bd-4.0.2.ttf);
+}
+
+@font-face {
+	font-family: LinuxLibertine;
+	font-style: italic;
+	font-weight: bold;
+	src:url(http://media.paperight.com/fonts/linux-libertine/LinLibertine_BI-4.0.3.ttf);
+}
+
+body {
+font-family: LinuxLibertine, serif !important;
+font-size: 1.2em;
+background: white !important;
+margin: 0 !important;
+}
+
+h1, h2, h3, h4, h5, h6 {
+font-family: LinuxLibertine, serif !important;
+font-weight: normal;
+margin: 2em 0 1em 0;
+text-align: left;
+page-break-after: avoid;
+page-break-inside: avoid;
+}
+
+h1 {
+font-size: 3em;
+page-break-before: always;
+}
+
+h2 {
+font-size: 2em;
+page-break-before: always;
+}
+
+h3 {
+font-size: 1.5em;
+}
+
+h4 {
+font-size: 1.2em;
+font-style: italic;
+}
+
+h5 {
+font-size: 1.2em;
+font-style: italic;
+margin: 1em 0 0.5em 0;
+}
+
+h6 {
+font-size: 1em;
+font-style: italic;
+margin: 1em 0 0 0;
+}
+
+p {
+font-family: LinuxLibertine, serif !important;
+line-height: 1.3em;
+text-indent: 1em;
+margin: 0;
+}
+
+img{
+margin: 1em 0 1em 0;
+padding: 1em;
+border: 1px solid grey;
+}
+
+.pagenum {
+float: right;
+color: grey;
+}
