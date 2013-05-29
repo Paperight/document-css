@@ -34,74 +34,74 @@
 @page { margin: 5pt 5pt 5pt 5pt  }
 
 body {
-font-family: LinuxLibertine, serif !important;
-font-size: 1.2em;
-background: white !important;
-margin: 0 !important;
+	font-family: LinuxLibertine, serif !important;
+	font-size: 1.2em;
+	background: white !important;
+	margin: 0 !important;
 }
 
 h1, h2, h3, h4, h5, h6 {
-font-family: LinuxLibertine, serif !important;
-font-weight: normal;
-margin: 2em 0 1em 0;
-text-align: left;
-page-break-after: avoid;
-page-break-inside: avoid;
+	font-family: LinuxLibertine, serif !important;
+	font-weight: normal;
+	margin: 2em 0 1em 0;
+	text-align: left;
+	page-break-after: avoid;
+	page-break-inside: avoid;
 }
 
 h1 {
-font-size: 3em;
-page-break-before: always;
+	font-size: 3em;
+	page-break-before: always;
 }
 
 h2 {
-font-size: 2em;
-page-break-before: always;
+	font-size: 2em;
+	page-break-before: always;
 }
 
 h3 {
-font-size: 1.5em;
+	font-size: 1.5em;
 }
 
 h4 {
-font-size: 1.2em;
-font-style: italic;
+	font-size: 1.2em;
+	font-style: italic;
 }
 
 h5 {
-font-size: 1.2em;
-font-style: italic;
-margin: 1em 0 0.5em 0;
+	font-size: 1.2em;
+	font-style: italic;
+	margin: 1em 0 0.5em 0;
 }
 
 h6 {
-font-size: 1em;
-font-style: italic;
-margin: 1em 0 0 0;
+	font-size: 1em;
+	font-style: italic;
+	margin: 1em 0 0 0;
 }
 
 p {
-font-family: LinuxLibertine, serif !important;
-line-height: 1.3em;
-text-indent: 1em;
-margin: 0;
+	font-family: LinuxLibertine, serif !important;
+	line-height: 1.3em;
+	text-indent: 1em;
+	margin: 0;
 }
 
-img{
-margin: 1em 0 1em 0;
-padding: 1em;
-border: 1px solid grey;
+img {
+	margin: 1em 0 1em 0;
+	padding: 1em;
+	border: 1px solid grey;
 }
 
 .pagenum {
-float: right;
-color: grey;
+	float: right;
+	color: grey;
 }
 
 pre {
- white-space: pre-wrap;       /* css-3 */
- white-space: -moz-pre-wrap;  /* Mozilla, since 1999 */
- white-space: -pre-wrap;      /* Opera 4-6 */
- white-space: -o-pre-wrap;    /* Opera 7 */
- word-wrap: break-word;       /* Internet Explorer 5.5+ */
+	white-space: pre-wrap;       /* css-3 */
+	white-space: -moz-pre-wrap;  /* Mozilla, since 1999 */
+	white-space: -pre-wrap;      /* Opera 4-6 */
+	white-space: -o-pre-wrap;    /* Opera 7 */
+	word-wrap: break-word;       /* Internet Explorer 5.5+ */
 }
