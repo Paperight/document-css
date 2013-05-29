@@ -1,10 +1,10 @@
 @charset "utf-8";
 /* Paperight editions typography
  * Author: Arthur Attwell arthur@paperight.com
- * */
+ * Updated: 2 Oct 2012 */
 
 @font-face {
-  font-family: LinuxLibertine;
+	font-family: LinuxLibertine;
 	font-style: normal;
 	font-weight: normal;
 	src:url(http://media.paperight.com/fonts/linux-libertine/LinLibertine_Re-4.1.8.ttf);
@@ -37,6 +37,15 @@ body {
 h1, h2, h3, h4, h5, h6 {
 	font-weight: normal;
 	margin: 1.5em 0 0.5em 0;}
+	
+h1 {
+font-size: 3em;
+page-break-before: always;
+text-align: centre;}
+
+h2 {
+font-size: 2em;
+page-break-before: always;}
 
 p {
 	margin: 0;
@@ -51,6 +60,10 @@ p.intro {
 p.first {
 	margin-top: 1em;
 	text-indent: 0;}
+	
+p.author-name {
+	text-align: center;
+	font-variant: small-caps;}
 
 a {
 	color: inherit;
@@ -58,3 +71,11 @@ a {
 
 img {
 	margin: 1em 0 1em 0;}
+	
+pre {
+ white-space: pre-wrap;       /* css-3 */
+ white-space: -moz-pre-wrap;  /* Mozilla, since 1999 */
+ white-space: -pre-wrap;      /* Opera 4-6 */
+ white-space: -o-pre-wrap;    /* Opera 7 */
+ word-wrap: break-word;       /* Internet Explorer 5.5+ */
+}
