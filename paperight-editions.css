@@ -31,6 +31,8 @@
 	src:url(http://media.paperight.com/fonts/linux-libertine/LinLibertine_BI-4.0.3.otf);
 }
 
+@page { margin: 5pt 5pt 5pt 5pt  }
+
 body {
 	font-family: LinuxLibertine, serif;}
 
